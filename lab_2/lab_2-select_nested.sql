@@ -1,0 +1,4 @@
+SET STATISTICS TIME ON;
+SELECT *
+FROM Ships
+WHERE RegNumber IN (SELECT ShipRegNumber FROM Cargoes WHERE CustomValue > 1010);

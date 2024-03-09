@@ -1,0 +1,3 @@
+SET STATISTICS TIME ON;
+SELECT COUNT(*) AS TotalShips FROM Ships;
+SELECT COUNT(*) AS TotalCargoes FROM Cargoes;
