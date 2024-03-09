@@ -1,0 +1,20 @@
+SET STATISTICS TIME ON;
+-- UNION
+SELECT Skipper FROM Ships
+UNION
+SELECT Origin FROM Cargoes;
+
+-- UNION ALL
+SELECT Skipper FROM Ships
+UNION ALL
+SELECT Origin FROM Cargoes;
+
+-- INTERSECT
+SELECT Skipper FROM Ships
+INTERSECT
+SELECT Origin FROM Cargoes;
+
+-- MINUS
+SELECT Skipper FROM Ships
+MINUS
+SELECT Origin FROM Cargoes;

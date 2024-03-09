@@ -1,0 +1,3 @@
+SET STATISTICS TIME ON;
+SELECT * FROM ShippingData WHERE Capacity = 20;
+

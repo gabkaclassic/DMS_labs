@@ -1,0 +1,2 @@
+SET STATISTICS TIME ON;
+DELETE ShippingData WHERE RegNumber = 51;
