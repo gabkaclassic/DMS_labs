@@ -1,5 +1,5 @@
 SET STATISTICS TIME ON;
-INSERT INTO ShippingData (RegNumber, Name, CustomValue, Number) VALUES (51, 'Ship111', 12, 12);
+INSERT INTO ShippingData (RegNumber, Name, CustomValue, Number) VALUES (52131, 'Shipкйк111', 122, 12222);
 
-UPDATE ShippingData SET Capacity = -10 WHERE RegNumber = 1;
+UPDATE ShippingData SET Capacity = 101 WHERE RegNumber = 111;
 
